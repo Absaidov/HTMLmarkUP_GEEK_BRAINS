@@ -1,0 +1,57 @@
+.red_arrivals {
+
+    font-size: 24px;
+    font-weight: 900;
+    color: $colorActive;
+    line-height: 20px;
+    text-transform: uppercase;
+    display: flex;
+}
+
+
+.new_arrivals {
+    display: flex;
+}
+
+.home_men_new_arrivals {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(99, 99, 99, 1);
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.span_arrivals {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(99, 99, 99, 1);
+    line-height: 20px;
+    text-transform: uppercase;
+    transition: color 0.4s;
+
+
+}
+
+
+
+.span_arrivals:not(:last-child)::after {
+    content: ' / ';
+}
+
+
+.span_arrivals:hover {
+    color: $colorActive
+}
+
+.new_arrivals {
+    height: 148px;
+    background-color: $colorActive + #888888;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.new_new_arrivals {
+    padding-right: 50px;
+}

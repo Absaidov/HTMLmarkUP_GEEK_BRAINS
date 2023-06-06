@@ -1,0 +1,302 @@
+.product_details {
+    border-bottom: 1px solid rgba(234, 234, 234, 1);
+    padding-top: 90px;
+    ;
+
+
+
+
+
+    &_name {
+        display: flex;
+
+    }
+
+    &1 {
+        font-family: 'Lato';
+        font-size: 13px;
+        font-weight: bold;
+        color: rgba(34, 34, 34, 1);
+        letter-spacing: -0.01em;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+
+    &2 {
+        font-family: 'Lato';
+        font-size: 13px;
+        font-weight: bold;
+        color: rgba(34, 34, 34, 1);
+        letter-spacing: -0.01em;
+        line-height: 20px;
+        text-transform: uppercase;
+        padding-left: 500px;
+
+    }
+
+    &3 {
+        font-family: 'Lato';
+        font-size: 13px;
+        font-weight: bold;
+        color: rgba(34, 34, 34, 1);
+        letter-spacing: -0.01em;
+        line-height: 20px;
+        text-transform: uppercase;
+        padding-left: 50px;
+
+
+    }
+
+    &_cart1 {
+        padding-top: 15px;
+        padding-left: 21px;
+
+    }
+}
+
+
+.product_details_cart {
+    display: flex;
+    padding-top: 22px;
+    border-bottom: 1px solid rgba(234, 234, 234, 1);
+    padding-bottom: 20px;
+
+    &_img {
+        height: 115px;
+        width: 100px;
+    }
+
+    &_quantity {
+        height: 30px;
+        width: 54px;
+        border: 1px solid rgba(234, 234, 234, 1);
+        text-align: center;
+        margin-left: 87px;
+        margin-top: 40px;
+    }
+
+    &_price {
+        font-family: 'Lato';
+        font-size: 13px;
+        color: rgba(101, 101, 101, 1);
+        line-height: 20px;
+        padding-left: 87px;
+        padding-top: 40px;
+
+        &_first {
+            font-family: 'Lato';
+            font-size: 13px;
+            color: rgba(101, 101, 101, 1);
+            line-height: 20px;
+            padding-left: 350px;
+            padding-top: 40px;
+        }
+
+        &_quantity {
+            font-family: 'Lato';
+            font-size: 13px;
+            color: rgba(101, 101, 101, 1);
+            line-height: 20px;
+
+        }
+    }
+}
+
+.product_details_cart1_h2 {
+    font-family: 'Lato';
+    font-size: 13px;
+    color: rgba(34, 34, 34, 1);
+    text-align: right;
+    text-transform: uppercase;
+
+    &_h3 {
+        font-family: 'Lato';
+        font-size: 13px;
+        font-weight: 300;
+        color: rgba(111, 110, 110, 1);
+        line-height: 20px;
+    }
+
+}
+
+.product_details_cart_for_div {
+    padding-top: 25px;
+}
+
+.clear_shopping {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.reset_cart {
+    height: 50px;
+    width: 180px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(234, 234, 234, 1);
+    margin-top: 38px;
+    transition: 1s;
+
+    &:hover {
+        background-color: $colorActive;
+    }
+
+    &_name {
+        font-family: 'Lato';
+        font-size: 14px;
+        font-weight: bold;
+        color: rgba(74, 74, 74, 1);
+        text-transform: uppercase;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+.shipping_adress_main {
+
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 80px;
+
+    &_total {
+        background-color: $colorActive + #888888;
+        height: 214px;
+        width: 360px;
+        margin-left: 35px;
+
+    }
+
+
+}
+
+.for_flex {
+    display: table-caption;
+}
+
+.input_for_flex {
+    border: 1px solid rgba(234, 234, 234, 1);
+    height: 45px;
+    width: 355px;
+    margin-top: 20px;
+    display: table;
+
+}
+
+.coupon_discount {
+    margin-left: 35px;
+}
+
+.quote {
+    height: 35px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(234, 234, 234, 1);
+    transition: 1s;
+    margin-top: 20px;
+
+
+}
+
+
+.get_a_quote {
+    font-family: 'Lato';
+    font-size: 11px;
+    font-weight: bold;
+    color: rgba(74, 74, 74, 1);
+    text-transform: uppercase;
+
+
+
+
+}
+
+.quote:hover {
+    background-color: $colorActive;
+
+
+}
+
+.adresses_name {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(34, 34, 34, 1);
+    text-transform: uppercase;
+
+    &_enter {
+        font-family: 'Lato';
+        font-size: 14px;
+        font-weight: 300;
+        color: rgba(0, 0, 0, 1);
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    &_price {
+        font-family: 'Lato';
+        font-size: 11px;
+        color: rgba(74, 74, 74, 1);
+        text-transform: uppercase;
+        text-align: right;
+        padding-top: 40px;
+        padding-right: 40px;
+    }
+
+    &_totalPrice {
+        font-family: 'Lato';
+        font-size: 16px;
+        color: rgba(34, 34, 34, 1);
+        text-transform: uppercase;
+        text-align: right;
+        padding-top: 14px;
+        padding-right: 40px;
+
+        &_span {
+            color: $colorActive;
+        }
+    }
+
+
+}
+
+.apply_coupon {
+    height: 35px;
+    width: 118px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(234, 234, 234, 1);
+    transition: 1s;
+    margin-top: 37px;
+
+    &:hover {
+        background-color: $colorActive;
+    }
+
+    &_button {
+        font-family: 'Lato';
+        font-size: 11px;
+        font-weight: bold;
+        color: rgba(74, 74, 74, 1);
+        text-transform: uppercase;
+    }
+}
+
+
+.proceed {
+    height: 50px;
+    width: 273px;
+    border-top: 1px solid rgba(226, 226, 226, 1);
+    background-color: $colorActive;
+    border: $colorActive;
+    margin-top: 45px;
+    margin-left: 40px;
+    justify-content: center;
+
+    &_button {
+        font-family: 'Lato';
+        font-size: 16px;
+        font-weight: bold;
+        color: rgba(255, 255, 255, 1);
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,138 @@
+@import 'var.scss';
+
+.girl {
+    background: #F7F7F7;
+    background-size: cover;
+    justify-content: center;
+
+
+
+}
+
+.girl_picture {
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.center_girl {
+    padding-left: calc(50% - 300px);
+    padding-right: calc(50% - 300px);
+}
+
+.women_collection {
+
+    display: flex;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    background-color: #FFFFFF;
+    margin-top: -57px;
+    height: 730px;
+    width: 1141px;
+    position: relative;
+    border: 1px solid rgba(234, 234, 234, 1);
+
+    &_product_cart {
+        display: inline-block;
+        padding-right: 15px;
+        padding-top: 12px;
+        height: 39px;
+        width: 40px;
+
+
+    }
+
+    &_cart {
+        padding-top: 10px;
+        margin-top: 220px;
+        margin-left: 300px;
+        height: 55px;
+        width: 537px;
+        border: 1px solid $colorActive;
+        justify-content: center;
+
+
+
+
+        &_add {
+            align-items: center;
+            position: relative;
+            font-size: 17px;
+            font-weight: bold;
+            color: $colorActive;
+            transition: color 1s;
+
+            &:hover {
+                box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16);
+
+            }
+
+
+
+
+        }
+
+
+    }
+
+
+
+
+    &_price {
+        padding-top: 30px;
+        color: $colorActive;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    &_compellingly {
+        padding-left: 255px;
+        padding-top: 67px;
+        height: 130px;
+        width: 850px;
+        line-height: 24px;
+        color: rgba(94, 94, 94, 1);
+        font-size: 14px;
+    }
+
+    &_moschino {
+        padding-top: 34px;
+        line-height: 24px;
+        text-transform: uppercase;
+        font-size: 18px;
+        color: rgba(77, 77, 77, 1);
+    }
+
+    &__name {
+        color: $colorActive;
+        margin-top: 73px;
+        line-height: 24px;
+        font-size: 14px;
+        font-weight: bold;
+
+
+
+    }
+
+
+}
+
+.women_collection_cart:hover {
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16);
+
+
+}
+
+.you {
+    text-align: center;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 115px;
+
+}

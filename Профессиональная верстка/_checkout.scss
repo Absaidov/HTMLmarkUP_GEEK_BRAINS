@@ -1,0 +1,132 @@
+@import 'var.scss';
+
+.checkout_list {
+    margin-top: 89px;
+    display: inline-block;
+}
+
+.checkout_list_li {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(34, 34, 34, 1);
+    text-transform: uppercase;
+    font-family: 'Lato';
+    color: rgba(34, 34, 34, 1);
+    list-style-type: none;
+    display: inline-block;
+    width: 1140px;
+}
+
+.dropp_checkout {
+    border-bottom: 1px solid rgba(232, 232, 232, 1);
+    display: flex;
+}
+
+.check_as {
+    font-family: 'Lato';
+    font-size: 13px;
+    color: rgba(34, 34, 34, 1);
+    text-transform: uppercase;
+}
+
+.register_down {
+    font-family: 'Lato';
+    font-size: 13px;
+    color: rgba(179, 178, 178, 1);
+    line-height: 20px;
+}
+
+.dropp_ul {
+    list-style-type: none;
+    padding-left: 35px;
+
+
+}
+
+.drop_parent {
+    display: flex;
+}
+
+.drop_block2 {
+    margin-left: 220px;
+
+}
+
+.email_adress {
+    height: 45px;
+    width: 390px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(234, 234, 234, 1);
+    margin-top: 20px;
+}
+
+.dropp_ul2 {
+    list-style-type: none;
+    padding-left: 35px;
+    display: block;
+
+}
+
+.continue_button {
+    height: 50px;
+    width: 180px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(234, 234, 234, 1);
+    margin-top: 38px;
+    margin-left: 35px;
+    transition: 1s;
+
+    &:hover {
+        background-color: $colorActive;
+    }
+
+    &_name {
+        font-family: 'Lato';
+        font-size: 14px;
+        font-weight: bold;
+        color: rgba(74, 74, 74, 1);
+        text-transform: uppercase;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+
+
+.already_registred {
+
+    font-family: 'Lato';
+    font-size: 13px;
+    color: rgba(34, 34, 34, 1);
+    text-transform: uppercase;
+}
+
+.but {
+    display: flex;
+}
+
+.forgot_password {
+    font-family: 'Lato';
+    font-size: 13px;
+    color: rgba(34, 34, 34, 1);
+    text-transform: uppercase;
+    padding-top: 55px;
+    padding-left: 32px;
+}
+
+.checkout_list_li {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+
+    &::none {
+        content: '\25B6';
+        padding-left: 0.5em;
+        font-size: 12px;
+
+    }
+
+    &::-webkit-details-marker {
+        display: none;
+    }
+}
